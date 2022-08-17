@@ -4,7 +4,7 @@ import requests
 import os
 from tqdm import tqdm
 
-PROP_ID = int(sys.arvg[1])
+PROP_ID = int(sys.argv[1])
 
 # Instantiate the client with an endpoint.
 client = GraphqlClient(endpoint="https://api.thegraph.com/subgraphs/name/nounsdao/nouns-subgraph")
